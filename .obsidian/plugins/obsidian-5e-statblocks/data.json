@@ -1,0 +1,612 @@
+{
+  "monsters": [],
+  "defaultLayouts": {},
+  "layouts": [
+    {
+      "blocks": [
+        {
+          "type": "inline",
+          "id": "2bb9f84a1a9b",
+          "properties": [],
+          "hasRule": true,
+          "nested": [
+            {
+              "type": "group",
+              "id": "1bc9b82ac9b8",
+              "properties": [
+                "name",
+                "size",
+                "type",
+                "subtype",
+                "alignment"
+              ],
+              "nested": [
+                {
+                  "type": "inline",
+                  "id": "79987ba8196b",
+                  "properties": [],
+                  "hasRule": false,
+                  "nested": [
+                    {
+                      "type": "heading",
+                      "id": "4a8bb8b828b8",
+                      "properties": [
+                        "name"
+                      ],
+                      "conditioned": true,
+                      "size": 1
+                    },
+                    {
+                      "type": "inline",
+                      "id": "78895988eb5a",
+                      "properties": [],
+                      "hasRule": false,
+                      "nested": [
+                        {
+                          "type": "action",
+                          "id": "68ca4838a88b",
+                          "icon": "sword",
+                          "callback": "try { InitiativeTracker.newEncounter({roll: true, creatures: [monster]}); } catch(e) {}"
+                        },
+                        {
+                          "type": "action",
+                          "id": "aa29eb49687a",
+                          "icon": "plus-with-circle",
+                          "callback": "try { InitiativeTracker.addCreatures([monster]); } catch(e) {}"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "subheading",
+                  "id": "584ba8e9e88a",
+                  "properties": [
+                    "size",
+                    "trait"
+                  ],
+                  "conditioned": true,
+                  "separator": ", "
+                }
+              ],
+              "conditioned": true
+            },
+            {
+              "type": "image",
+              "id": "5b385a1ad808",
+              "properties": [
+                "image"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "id": "1b491ada1b6b",
+          "properties": [],
+          "nested": [
+            {
+              "type": "table",
+              "id": "5b88b92a5bd8",
+              "properties": [
+                "group-size"
+              ],
+              "headers": [
+                "minions",
+                "masters"
+              ],
+              "calculate": false,
+              "fallback": "-",
+              "hasRule": true
+            },
+            {
+              "type": "text",
+              "id": "08cbdafada0a",
+              "properties": [
+                "description"
+              ],
+              "text": null,
+              "fallback": "-",
+              "heading": ""
+            }
+          ]
+        },
+        {
+          "type": "inline",
+          "id": "abc123inline1",
+          "properties": [],
+          "hasRule": false,
+          "nested": [
+            {
+              "type": "group",
+              "id": "c94ac85b29ca",
+              "properties": [],
+              "nested": [
+                {
+                  "type": "group",
+                  "id": "9b8a0b08c83a",
+                  "properties": [],
+                  "nested": [
+                    {
+                      "type": "text",
+                      "id": "8958ab28aa2a",
+                      "properties": [],
+                      "text": "**Master**",
+                      "fallback": "-"
+                    },
+                    {
+                      "type": "traits",
+                      "id": "183bbb183839",
+                      "properties": [
+                        "Act1MasterSpecials"
+                      ],
+                      "fallback": "",
+                      "heading": "",
+                      "subheadingText": ""
+                    },
+                    {
+                      "type": "table",
+                      "id": "eafba9b88a8b",
+                      "properties": [
+                        "Act1MasterStats"
+                      ],
+                      "headers": [
+                        "speed",
+                        "health",
+                        "defense",
+                        "attack"
+                      ],
+                      "calculate": false,
+                      "fallback": "-"
+                    }
+                  ]
+                },
+                {
+                  "type": "group",
+                  "id": "a868c91a29d8",
+                  "properties": [],
+                  "nested": [
+                    {
+                      "type": "text",
+                      "id": "9a98a9282bfa",
+                      "properties": [],
+                      "text": "**Minions**",
+                      "fallback": "-"
+                    },
+                    {
+                      "type": "traits",
+                      "id": "98e8ba3868a9",
+                      "properties": [
+                        "Act1MinionSpecials"
+                      ],
+                      "fallback": "-",
+                      "heading": "",
+                      "subheadingText": ""
+                    },
+                    {
+                      "type": "table",
+                      "id": "ba1b4939896b",
+                      "properties": [
+                        "Act1MinionStats"
+                      ],
+                      "headers": [
+                        "speed",
+                        "health",
+                        "defense",
+                        "attack"
+                      ],
+                      "calculate": false,
+                      "fallback": "-"
+                    }
+                  ]
+                }
+              ],
+              "hasRule": false,
+              "heading": "Ato I"
+            },
+            {
+              "type": "group",
+              "id": "e939aba9ea29",
+              "properties": [],
+              "nested": [
+                {
+                  "type": "group",
+                  "id": "19597aaa2b29",
+                  "properties": [],
+                  "nested": [
+                    {
+                      "type": "text",
+                      "id": "2b289999196a",
+                      "properties": [],
+                      "text": "**Master**",
+                      "fallback": "-"
+                    },
+                    {
+                      "type": "traits",
+                      "id": "1988aad8287a",
+                      "properties": [
+                        "Act2MasterSpecials"
+                      ],
+                      "fallback": "",
+                      "heading": "",
+                      "subheadingText": ""
+                    },
+                    {
+                      "type": "table",
+                      "id": "2bcb9adb28da",
+                      "properties": [
+                        "Act2MasterStats"
+                      ],
+                      "headers": [
+                        "speed",
+                        "health",
+                        "defense",
+                        "attack"
+                      ],
+                      "calculate": false,
+                      "fallback": "-"
+                    }
+                  ]
+                },
+                {
+                  "type": "group",
+                  "id": "18fbd9eb4bd9",
+                  "properties": [],
+                  "nested": [
+                    {
+                      "type": "text",
+                      "id": "3b1888ab185b",
+                      "properties": [],
+                      "text": "**Minions**",
+                      "fallback": "-"
+                    },
+                    {
+                      "type": "traits",
+                      "id": "3baa2868485b",
+                      "properties": [
+                        "Act2MinionSpecials"
+                      ],
+                      "fallback": "-",
+                      "heading": "",
+                      "subheadingText": ""
+                    },
+                    {
+                      "type": "table",
+                      "id": "2ac8584ababb",
+                      "properties": [
+                        "Act2MinionStats"
+                      ],
+                      "headers": [
+                        "speed",
+                        "health",
+                        "defense",
+                        "attack"
+                      ],
+                      "calculate": false,
+                      "fallback": "-"
+                    }
+                  ]
+                }
+              ],
+              "heading": "Ato II"
+            }
+          ]
+        }
+      ],
+      "name": "Descent",
+      "id": "dab87b384bd8",
+      "diceParsing": [],
+      "columnWidth": 700,
+      "forceColumns": false,
+      "columns": 1
+    },
+    {
+      "blocks": [
+        {
+          "type": "inline",
+          "id": "2bb9f84a1a9b",
+          "properties": [],
+          "hasRule": true,
+          "nested": [
+            {
+              "type": "group",
+              "id": "1bc9b82ac9b8",
+              "properties": [
+                "name",
+                "size",
+                "type",
+                "subtype",
+                "alignment"
+              ],
+              "nested": [
+                {
+                  "type": "inline",
+                  "id": "79987ba8196b",
+                  "properties": [],
+                  "hasRule": false,
+                  "nested": [
+                    {
+                      "type": "heading",
+                      "id": "4a8bb8b828b8",
+                      "properties": [
+                        "name"
+                      ],
+                      "conditioned": true,
+                      "size": 1
+                    },
+                    {
+                      "type": "inline",
+                      "id": "78895988eb5a",
+                      "properties": [],
+                      "hasRule": false,
+                      "nested": [
+                        {
+                          "type": "action",
+                          "id": "68ca4838a88b",
+                          "icon": "sword",
+                          "callback": "try { InitiativeTracker.newEncounter({roll: true, creatures: [monster]}); } catch(e) {}"
+                        },
+                        {
+                          "type": "action",
+                          "id": "aa29eb49687a",
+                          "icon": "plus-with-circle",
+                          "callback": "try { InitiativeTracker.addCreatures([monster]); } catch(e) {}"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "subheading",
+                  "id": "584ba8e9e88a",
+                  "properties": [
+                    "size",
+                    "trait"
+                  ],
+                  "conditioned": true,
+                  "separator": ", "
+                }
+              ],
+              "conditioned": true
+            },
+            {
+              "type": "image",
+              "id": "5b385a1ad808",
+              "properties": [
+                "image"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "id": "1b491ada1b6b",
+          "properties": [],
+          "nested": [
+            {
+              "type": "table",
+              "id": "5b88b92a5bd8",
+              "properties": [
+                "goup-size"
+              ],
+              "headers": [
+                "heroes",
+                "minions",
+                "masters"
+              ],
+              "calculate": false,
+              "fallback": "-",
+              "hasRule": true
+            }
+          ]
+        },
+        {
+          "type": "inline",
+          "id": "abc123inline1",
+          "properties": [],
+          "hasRule": false,
+          "nested": [
+            {
+              "type": "group",
+              "id": "c94ac85b29ca",
+              "properties": [],
+              "nested": [
+                {
+                  "type": "group",
+                  "id": "9b8a0b08c83a",
+                  "properties": [],
+                  "nested": [
+                    {
+                      "type": "text",
+                      "id": "8958ab28aa2a",
+                      "properties": [],
+                      "text": "**Master**",
+                      "fallback": "-"
+                    },
+                    {
+                      "type": "traits",
+                      "id": "183bbb183839",
+                      "properties": [
+                        "Act1MasterSpecials"
+                      ],
+                      "fallback": "",
+                      "heading": "",
+                      "subheadingText": ""
+                    },
+                    {
+                      "type": "table",
+                      "id": "eafba9b88a8b",
+                      "properties": [
+                        "Act1MasterStats"
+                      ],
+                      "headers": [
+                        "speed",
+                        "health",
+                        "defense",
+                        "attack"
+                      ],
+                      "calculate": false,
+                      "fallback": "-"
+                    }
+                  ]
+                },
+                {
+                  "type": "group",
+                  "id": "a868c91a29d8",
+                  "properties": [],
+                  "nested": [
+                    {
+                      "type": "text",
+                      "id": "9a98a9282bfa",
+                      "properties": [],
+                      "text": "**Minions**",
+                      "fallback": "-"
+                    },
+                    {
+                      "type": "traits",
+                      "id": "98e8ba3868a9",
+                      "properties": [
+                        "Act1MinionSpecials"
+                      ],
+                      "fallback": "-",
+                      "heading": "",
+                      "subheadingText": ""
+                    },
+                    {
+                      "type": "table",
+                      "id": "ba1b4939896b",
+                      "properties": [
+                        "Act1MinionStats"
+                      ],
+                      "headers": [
+                        "speed",
+                        "health",
+                        "defense",
+                        "attack"
+                      ],
+                      "calculate": false,
+                      "fallback": "-"
+                    }
+                  ]
+                }
+              ],
+              "hasRule": false,
+              "heading": "Ato I"
+            },
+            {
+              "type": "group",
+              "id": "e939aba9ea29",
+              "properties": [],
+              "nested": [
+                {
+                  "type": "group",
+                  "id": "19597aaa2b29",
+                  "properties": [],
+                  "nested": [
+                    {
+                      "type": "text",
+                      "id": "2b289999196a",
+                      "properties": [],
+                      "text": "**Master**",
+                      "fallback": "-"
+                    },
+                    {
+                      "type": "traits",
+                      "id": "1988aad8287a",
+                      "properties": [
+                        "Act2MasterSpecials"
+                      ],
+                      "fallback": "",
+                      "heading": "",
+                      "subheadingText": ""
+                    },
+                    {
+                      "type": "table",
+                      "id": "2bcb9adb28da",
+                      "properties": [
+                        "Act2MasterStats"
+                      ],
+                      "headers": [
+                        "speed",
+                        "health",
+                        "defense",
+                        "attack"
+                      ],
+                      "calculate": false,
+                      "fallback": "-"
+                    }
+                  ]
+                },
+                {
+                  "type": "group",
+                  "id": "18fbd9eb4bd9",
+                  "properties": [],
+                  "nested": [
+                    {
+                      "type": "text",
+                      "id": "3b1888ab185b",
+                      "properties": [],
+                      "text": "**Minions**",
+                      "fallback": "-"
+                    },
+                    {
+                      "type": "traits",
+                      "id": "3baa2868485b",
+                      "properties": [
+                        "Act2MinionSpecials"
+                      ],
+                      "fallback": "-",
+                      "heading": "",
+                      "subheadingText": ""
+                    },
+                    {
+                      "type": "table",
+                      "id": "2ac8584ababb",
+                      "properties": [
+                        "Act2MinionStats"
+                      ],
+                      "headers": [
+                        "speed",
+                        "health",
+                        "defense",
+                        "attack"
+                      ],
+                      "calculate": false,
+                      "fallback": "-"
+                    }
+                  ]
+                }
+              ],
+              "heading": "Ato II"
+            }
+          ]
+        }
+      ],
+      "name": "Descent Copy",
+      "id": "c96b39e87a6a"
+    }
+  ],
+  "default": "dab87b384bd8",
+  "useDice": false,
+  "renderDice": false,
+  "export": true,
+  "showAdvanced": true,
+  "version": {
+    "major": 4,
+    "minor": 10,
+    "patch": 2
+  },
+  "paths": [
+    "2-Mechanics/CLI/Bestiary",
+    "2-Mechanics/Bestiary"
+  ],
+  "autoParse": true,
+  "disableSRD": false,
+  "tryToRenderLinks": false,
+  "debug": false,
+  "notifiedOfFantasy": false,
+  "hideConditionHelp": false,
+  "alwaysImport": false,
+  "defaultLayoutsIntegrated": true,
+  "atomicWrite": false
+}

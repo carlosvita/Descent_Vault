@@ -1,0 +1,30 @@
+/* Torna os cards do tipo [!cards] completamente clicáveis */
+.callout[data-callout="cards"] .callout-content {
+    position: relative;
+}
+
+.callout[data-callout="cards"] .callout-content > p {
+    position: relative;
+    cursor: pointer;
+}
+
+/* Faz o link cobrir todo o card */
+.callout[data-callout="cards"] .callout-content > p > strong > a {
+    position: static;
+}
+
+.callout[data-callout="cards"] .callout-content > p > strong > a::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+
+/* Garante que a imagem fique abaixo do link clicável */
+.callout[data-callout="cards"] .callout-content > p img {
+    position: relative;
+    z-index: 0;
+}

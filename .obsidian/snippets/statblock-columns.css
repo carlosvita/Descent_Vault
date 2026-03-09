@@ -1,0 +1,16 @@
+/* Fantasy Statblocks - Controle de quebra de colunas */
+
+/* Forçar "Ato II" a começar em nova coluna */
+.statblock .new-column {
+  break-before: column !important;
+  -webkit-column-break-before: column !important;
+  page-break-before: always !important;
+  column-break-before: always !important;
+}
+
+/* Alternativa: forçar quebra após o heading "Ato I" */
+.statblock-container h3:contains("Ato I") {
+  break-after: column !important;
+  -webkit-column-break-after: column !important;
+  page-break-after: always !important;
+}

@@ -1,0 +1,58 @@
+
+/* Reset de margens e paddings */
+* {
+  margin: 0;
+  padding: 8;
+  box-sizing: border-box;
+}
+
+/* HTML e Body ocupando 100% da página */
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+/* Body como flex container */
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Classe utilitária para elementos full page */
+.full-page {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 8;
+}
+
+/* Remove margens e padding do container quando full-page está ativo */
+.full-page .view-content,
+.full-page .markdown-preview-view,
+.full-page .markdown-source-view {
+  padding: 8 !important;
+  margin: 0 !important;
+  max-width: 100% !important;
+}
+
+/* Remove a largura máxima do conteúdo */
+.full-page .markdown-preview-sizer,
+.full-page .cm-sizer {
+  max-width: 100% !important;
+  padding-left: 8 !important;
+  padding-right: 20px !important;
+  margin: 0 !important;
+}
+
+/* Container principal do Obsidian ocupando todo espaço */
+.workspace {
+  width: 100%;
+  height: 100%;
+}
+
+/* Remove espaços extras do container de visualização */
+.view-content {
+  height: 100%;
+  padding: 0;
+}

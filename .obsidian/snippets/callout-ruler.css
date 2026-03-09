@@ -1,0 +1,57 @@
+.callout[data-callout="custom-ruler"] {
+    --callout-color: rgb(170, 91, 91);
+    --callout-icon: lucide-ruler;
+    border: 2px solid rgb(170, 91, 91);
+    background-color: rgba(252, 236, 214, 0.555);
+}
+
+.callout[data-callout="custom-ruler"] .callout-title {
+    background-color: transparent;
+    color: rgb(170, 91, 91);
+}
+
+.callout[data-callout="custom-ruler"] .callout-content {
+    background-color: transparent;
+    color: rgb(170, 91, 91);
+}
+
+
+
+ 
+.callout[data-callout="custom-skull"] {
+    --callout-color: rgb(170, 91, 91);
+    --callout-icon: lucide-skull;
+    border: 2px solid rgb(170, 91, 91);
+    background-color: rgba(252, 236, 214, 0.555);
+}
+
+.callout[data-callout="custom-skull"] .callout-title {
+    background-color: transparent;
+    color: rgb(170, 91, 91);
+}
+
+.callout[data-callout="custom-skullr"] .callout-content {
+    background-color: transparent;
+    color: rgb(170, 91, 91);
+}
+
+
+
+
+.callout[data-callout="custom-tent"] {
+    --callout-color: rgb(170, 91, 91);
+    --callout-icon: lucide-tent;
+    border: 2px solid rgb(170, 91, 91);
+    background-color: rgba(252, 236, 214, 0.555);
+}
+
+.callout[data-callout="custom-tent"] .callout-title {
+    background-color: transparent;
+    color: rgb(170, 91, 91);
+}
+
+.callout[data-callout="custom-tent"] .callout-content {
+    background-color: transparent;
+    color: rgb(170, 91, 91);
+}
+

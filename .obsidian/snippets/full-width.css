@@ -1,0 +1,39 @@
+/* ===============================
+   FULL WIDTH PAGE - Obsidian Snippet
+   =============================== */
+
+/* Remove limite de largura da nota */
+.markdown-source-view,
+.markdown-preview-view {
+  max-width: 100% !important;
+  width: 100% !important;
+  padding: 0 2rem !important; /* Ajuste o padding lateral se quiser margens */
+  margin: 0 auto !important;
+}
+
+/* Ajusta contêiner principal para ocupar 100% */
+.workspace-leaf-content[data-type="markdown"] .view-content {
+  max-width: 100% !important;
+  width: 100% !important;
+  padding: 0 !important;
+}
+
+/* Remove limites do modo de leitura */
+.markdown-reading-view .markdown-preview-section {
+  max-width: 100% !important;
+  width: 100% !important;
+  padding: 0 2rem !important;
+  margin: 0 auto !important;
+}
+
+/* Expande conteúdo interno */
+.markdown-preview-view .markdown-preview-sizer {
+  max-width: 100% !important;
+  width: 100% !important;
+}
+
+/* Ajuste opcional: remove sombra lateral se o tema aplicar */
+.markdown-preview-view,
+.markdown-source-view {
+  box-shadow: none !important;
+}

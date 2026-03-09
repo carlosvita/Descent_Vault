@@ -1,0 +1,16 @@
+{
+  "cssTheme": "ITS Theme",
+  "theme": "moonstone",
+  "enabledCssSnippets": [
+    "hide-embed-title",
+    "full-page",
+    "optional-full-width",
+    "TabsInObsidian",
+    "callout-ruler",
+    "columns-align-left",
+    "full-width",
+    "S - Encoded Icons",
+    "statblock-columns",
+    "clickable-cards"
+  ]
+}

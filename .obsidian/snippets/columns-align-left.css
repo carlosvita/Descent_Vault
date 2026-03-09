@@ -1,0 +1,26 @@
+/* ===================================
+   Alinhar conteúdo das colunas à esquerda
+   para o plugin "Obsidian Columns"
+   =================================== */
+
+/* Garante que cada coluna use alinhamento à esquerda */
+.col-md, 
+.col, 
+.col-sm, 
+.col-lg {
+  text-align: left !important; /* Alinha texto e imagens */
+  justify-content: flex-start !important; /* Garante alinhamento horizontal */
+  align-items: flex-start !important; /* Garante alinhamento vertical */
+}
+
+/* Remove centralização padrão do plugin */
+.columns {
+  justify-content: flex-start !important;
+  align-items: flex-start !important;
+}
+
+/* Garante que imagens não sejam centralizadas */
+.columns img {
+  display: inline-block !important;
+  margin: 0 !important;
+}

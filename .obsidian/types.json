@@ -1,0 +1,13 @@
+{
+  "types": {
+    "aliases": "aliases",
+    "cssclasses": "multitext",
+    "tags": "tags",
+    "Open Monsters": "multitext",
+    "Attack Type": "multitext",
+    "Base Size": "multitext",
+    "Type": "multitext",
+    "Ato": "multitext",
+    "abillities": "multitext"
+  }
+}

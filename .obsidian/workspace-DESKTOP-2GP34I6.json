@@ -1,0 +1,232 @@
+{
+  "main": {
+    "id": "7867c189cb23bacb",
+    "type": "split",
+    "children": [
+      {
+        "id": "fea7482b80e67b3f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ab97defc3734e183",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Root/Nerekhall.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Nerekhall"
+            }
+          },
+          {
+            "id": "bf038dc2a01037b6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Preocupações sobre Nerekhall.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Preocupações sobre Nerekhall"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2b54db6ec0ed3c2b",
+    "type": "split",
+    "children": [
+      {
+        "id": "3297870f585b2c6d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5cc4eec2174f440f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "67c9a48fd669b136",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "1ac9ad777ebe52ee",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "dbf000d441749118",
+    "type": "split",
+    "children": [
+      {
+        "id": "0a9f5f4928a6e471",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "621437ab3bf56ca9",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Root/Tristayne Olliven (Agent).md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Tristayne Olliven (Agent)"
+            }
+          },
+          {
+            "id": "2e63b03660c6f7f1",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Root/Tristayne Olliven (Agent).md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Tristayne Olliven (Agent)"
+            }
+          },
+          {
+            "id": "d8ca9aa4b15258a3",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "a1564bde25ad6c54",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Root/Tristayne Olliven (Agent).md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Tristayne Olliven (Agent)"
+            }
+          },
+          {
+            "id": "59ab018fcdaf8b6b",
+            "type": "leaf",
+            "state": {
+              "type": "footnotes",
+              "state": {
+                "file": "Root/Tristayne Olliven (Agent).md"
+              },
+              "icon": "lucide-file-signature",
+              "title": "Footnotes"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "templater-obsidian:Templater": false,
+      "emoji-picker:Open emoji picker": false
+    }
+  },
+  "active": "bf038dc2a01037b6",
+  "lastOpenFiles": [
+    "Preocupações sobre Nerekhall.md.tmp.9044.1759152804846",
+    "Root/Nerekhall.md",
+    "Preocupações sobre Nerekhall.md",
+    "Root/Tristayne Olliven.md",
+    "Root/Uma Demonstração - Introdução.md",
+    "Templates/Lore.md",
+    "Root/Shadow of Nerekhall - Estória.md",
+    "Root/Greyhaven.md",
+    "Root/Rylan Olliven (Agent).md",
+    "Root/Rylan Olliven.md",
+    "Root/Tristayne Olliven (Agent).md",
+    "Templates/Agent - Lieutnant.md",
+    "Root/Precise.md",
+    "Root/Subdue.md",
+    "Root/Influence.md",
+    "Root/Chaotic Energy.md",
+    "Root/Soul Siphon.md",
+    "Root/Ravage.md",
+    "Templates/Ato I -.md",
+    "Templates/Abilities.md",
+    "Root/Fluxo de Campanha D2ed.md",
+    "Tristayne Olliven.md.tmp.27108.1759104084753",
+    "line of sight.md",
+    "overlord.md",
+    "Root",
+    "Welcome.md",
+    "Templates"
+  ]
+}
